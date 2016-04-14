@@ -1,5 +1,5 @@
 # SPARK
-Use pyspark to manipulate files in HDFS or Hbase
+Use pyspark to extract data from HDFS or Hbase
 
 The program using SparkSQL to extract top 5 restaurants in the JSON formatted file in HDFS.
 
