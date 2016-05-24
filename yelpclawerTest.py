@@ -7,7 +7,7 @@ conf = SparkConf().setMaster("local").setAppName("SparkSQL")
 sc = SparkContext(conf = conf)
 sqlContext = SQLContext(sc)
 
-biz = sqlContext.read.json("C:/Users/Xi/Desktop/file/Java/YelpSearch/myfileObj.json")
+biz = sqlContext.read.json("user/cloudera/Yelp/myfileObj.json")
 biz.printSchema()
 biz.registerTempTable("business")
 
